@@ -32,8 +32,8 @@
         <div class="scrollbar-inner">
             <!-- Brand -->
             <div class="sidenav-header d-flex align-items-center">
-                <a class="navbar-brand" href="<?= base_url('c_dashboard/dashboard') ?>">
-                    <img src="<?= base_url('assets/'); ?>img/brand/blue.png" class="navbar-brand-img" alt="...">
+                <a class="navbar-brand" href="<?= base_url('c_dashboard') ?>">
+                    <img src="<?= base_url('assets/'); ?>img/brand/logo-sobad.png" class="navbar-brand-img" alt="...">
                 </a>
                 <div class="ml-auto">
                     <!-- Sidenav toggler -->
