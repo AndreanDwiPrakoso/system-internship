@@ -76,7 +76,7 @@ class C_login extends CI_Controller
                 // var_dump($session);
                 $this->session->set_userdata($session);
                 echo '<script>
-                        window.location.href="' . base_url('c_dashboard/dashboard') . '";
+                        window.location.href="' . base_url('c_dashboard') . '";
                     </script>';
             } else {
                 echo '<script>

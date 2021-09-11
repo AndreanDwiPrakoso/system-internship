@@ -8,7 +8,7 @@ class C_dashboard extends CI_Controller
         $this->load->helper('url');
     }
 
-    public function dashboard()
+    public function index()
     {
         check_not_login();
         $data['tampil_data'] = $this->M_dashboard->show_data()->result();
@@ -37,14 +37,14 @@ class C_dashboard extends CI_Controller
         );
 
         $this->M_dashboard->input_data($data, 'tb_activity');
-        redirect('c_dashboard/dashboard');
+        redirect('c_dashboard');
     }
 
     public function delete($id)
     {
         $where = array('id' => $id);
         $this->M_dashboard->delete_data($where, 'tb_activity');
-        redirect('c_dashboard/dashboard');
+        redirect('c_dashboard');
     }
 
     public function edit($id)
@@ -81,7 +81,7 @@ class C_dashboard extends CI_Controller
             'id' => $id
         );
         $this->M_dashboard->update_data($where, $data, 'tb_activity');
-        redirect('c_dashboard/dashboard');
+        redirect('c_dashboard');
     }
 
     public function export()

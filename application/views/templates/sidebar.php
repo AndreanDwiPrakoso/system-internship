@@ -59,7 +59,7 @@
                             <div class="collapse show" id="navbar-dashboards">
                                 <ul class="nav nav-sm flex-column">
                                     <li <?= $this->uri->segment(2) == 'dashboard' || $this->uri->segment(1) == '' ? 'class="nav-item active"' : '' ?>>
-                                        <a href="<?= base_url('c_dashboard/dashboard') ?>" class="nav-link">Schedule</a>
+                                        <a href="<?= base_url('c_dashboard') ?>" class="nav-link">Schedule</a>
                                     </li>
                                 </ul>
                             </div>
