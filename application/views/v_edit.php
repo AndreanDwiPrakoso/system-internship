@@ -32,48 +32,152 @@
                                 </div>
                             </div>
                             <div class="form-group">
+                                <label class="fom-control-label font-weight-bold">Durasi Pelaksanaan</label>
+                                <!-- <textarea class="form-control" htmlspecialchars name="schedule" id="exampleFormControlTextarea1 validationCustomUsername" rows="3" aria-describedby="inputGroupPrepend" placeholder="Schedule Wajib Diisi" required><?= $data['schedule'] ?></textarea> -->
+                                <textarea name="schedule" id="content" cols="30" rows="10"><?= $data['schedule'] ?></textarea>
+                            </div>
+                            <div class="form-group">
                                 <label class="fom-control-label font-weight-bold">Schedule</label>
-                                <textarea class="form-control" name="schedule" id="exampleFormControlTextarea1 validationCustomUsername" rows="3" aria-describedby="inputGroupPrepend" placeholder="Schedule Wajib Diisi" required><?= $data['schedule'] ?></textarea>
-                                <div class="invalid-feedback text-left">
-                                    Schedule Belum Diisi
-                                </div>
+                                <!-- <textarea class="form-control" htmlspecialchars name="schedule" id="exampleFormControlTextarea1 validationCustomUsername" rows="3" aria-describedby="inputGroupPrepend" placeholder="Schedule Wajib Diisi" required><?= $data['schedule'] ?></textarea> -->
+                                <textarea name="execute_time" id="content2" cols="30" rows="10"><?= $data['execute_time'] ?></textarea>
+                            </div>
+
+
+                            <!-- <hr style="height:2px;border:none;color:#333;background-color:#bbb8b8;" />
+
+                            <div class="form-group">
+                                <label class="fom-control-label font-weight-bold">Schedule</label>
+                                <textarea class="form-control" name="schedule2" rows="3" aria-describedby="inputGroupPrepend" placeholder="Schedule Wajib Diisi"><?= $data['schedule2'] ?></textarea>
                             </div>
                             <div class="form-group">
                                 <div class="input-group">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text"><i class="ni ni-time-alarm"></i></span>
                                     </div>
-                                    <input class="form-control" value="<?= $data['execute_time'] ?>" name="execute_time" id="validationCustomUsername" placeholder="Waktu Pelaksanaan Wajib Diisi" type="text" required>
-                                    <div>
-                                        <span class="input-group-text" id="inputGroupPrepend2">Jam</span>
-                                    </div>
-                                    <div class="invalid-feedback text-left">
-                                        Waktu Pelaksanaan Belum Diisi
-                                    </div>
+                                    <input class="form-control" name="execute_time2" rows="3" aria-describedby="inputGroupPrepend" placeholder="Durasi Pelaksanaan Wajib Diisi" value="<?= $data['execute_time2'] ?>"></input>
                                 </div>
                             </div>
-                            <hr>
+
+                            <hr style="height:2px;border:none;color:#333;background-color:#bbb8b8;" />
+
                             <div class="form-group">
-                                <label class="fom-control-label font-weight-bold">Schedule Tambahan</label>
-                                <textarea class="form-control" name="schedule2" id="exampleFormControlTextarea1" rows="3" aria-describedby="inputGroupPrepend" placeholder="Schedule"><?= $data['schedule2'] ?></textarea>
-                                <div class="invalid-feedback text-left">
-                                    Schedule Belum Diisi
-                                </div>
+                                <label class="fom-control-label font-weight-bold">Schedule</label>
+                                <textarea class="form-control" name="schedule3" rows="3" aria-describedby="inputGroupPrepend" placeholder="Schedule Wajib Diisi"><?= $data['schedule3'] ?></textarea>
                             </div>
                             <div class="form-group">
                                 <div class="input-group">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text"><i class="ni ni-time-alarm"></i></span>
                                     </div>
-                                    <input class="form-control" value="<?= $data['execute_time2'] ?>" name="execute_time2" placeholder="Waktu Pelaksanaan Wajib Diisi" type="text">
-                                    <div>
-                                        <span class="input-group-text" id="inputGroupPrepend2">Jam</span>
-                                    </div>
-                                    <div class="invalid-feedback text-left">
-                                        Waktu Pelaksanaan Belum Diisi
-                                    </div>
+                                    <input class="form-control" name="execute_time3" rows="3" aria-describedby="inputGroupPrepend" placeholder="Durasi Pelaksanaan Wajib Diisi" value="<?= $data['execute_time3'] ?>"></input>
                                 </div>
                             </div>
+
+                            <hr style="height:2px;border:none;color:#333;background-color:#bbb8b8;" />
+
+                            <div class="form-group">
+                                <label class="fom-control-label font-weight-bold">Schedule</label>
+                                <textarea class="form-control" name="schedule4" rows="3" aria-describedby="inputGroupPrepend" placeholder="Schedule Wajib Diisi"><?= $data['schedule4'] ?></textarea>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="ni ni-time-alarm"></i></span>
+                                    </div>
+                                    <input class="form-control" name="execute_time4" rows="3" aria-describedby="inputGroupPrepend" placeholder="Durasi Pelaksanaan Wajib Diisi" value="<?= $data['execute_time4'] ?>"></input>
+                                </div>
+                            </div>
+
+                            <hr style="height:2px;border:none;color:#333;background-color:#bbb8b8;" />
+
+                            <div class="form-group">
+                                <label class="fom-control-label font-weight-bold">Schedule</label>
+                                <textarea class="form-control" name="schedule5" rows="3" aria-describedby="inputGroupPrepend" placeholder="Schedule Wajib Diisi"><?= $data['schedule5'] ?></textarea>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="ni ni-time-alarm"></i></span>
+                                    </div>
+                                    <input class="form-control" name="execute_time5" rows="3" aria-describedby="inputGroupPrepend" placeholder="Durasi Pelaksanaan Wajib Diisi" value="<?= $data['execute_time5'] ?>"></input>
+                                </div>
+                            </div>
+
+                            <hr style="height:2px;border:none;color:#333;background-color:#bbb8b8;" />
+
+                            <div class="form-group">
+                                <label class="fom-control-label font-weight-bold">Schedule</label>
+                                <textarea class="form-control" name="schedule6" rows="3" aria-describedby="inputGroupPrepend" placeholder="Schedule Wajib Diisi"><?= $data['schedule6'] ?></textarea>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="ni ni-time-alarm"></i></span>
+                                    </div>
+                                    <input class="form-control" name="execute_time6" rows="3" aria-describedby="inputGroupPrepend" placeholder="Durasi Pelaksanaan Wajib Diisi" value="<?= $data['execute_time6'] ?>"></input>
+                                </div>
+                            </div>
+
+                            <hr style="height:2px;border:none;color:#333;background-color:#bbb8b8;" />
+
+                            <div class="form-group">
+                                <label class="fom-control-label font-weight-bold">Schedule</label>
+                                <textarea class="form-control" name="schedule7" rows="3" aria-describedby="inputGroupPrepend" placeholder="Schedule Wajib Diisi"><?= $data['schedule7'] ?></textarea>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="ni ni-time-alarm"></i></span>
+                                    </div>
+                                    <input class="form-control" name="execute_time7" rows="3" aria-describedby="inputGroupPrepend" placeholder="Durasi Pelaksanaan Wajib Diisi" value="<?= $data['execute_time7'] ?>"></input>
+                                </div>
+                            </div>
+
+                            <hr style="height:2px;border:none;color:#333;background-color:#bbb8b8;" />
+
+                            <div class="form-group">
+                                <label class="fom-control-label font-weight-bold">Schedule</label>
+                                <textarea class="form-control" name="schedule8" rows="3" aria-describedby="inputGroupPrepend" placeholder="Schedule Wajib Diisi"><?= $data['schedule8'] ?></textarea>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="ni ni-time-alarm"></i></span>
+                                    </div>
+                                    <input class="form-control" name="execute_time8" rows="3" aria-describedby="inputGroupPrepend" placeholder="Durasi Pelaksanaan Wajib Diisi" value="<?= $data['execute_time8'] ?>"></input>
+                                </div>
+                            </div>
+
+                            <hr style="height:2px;border:none;color:#333;background-color:#bbb8b8;" />
+
+                            <div class="form-group">
+                                <label class="fom-control-label font-weight-bold">Schedule</label>
+                                <textarea class="form-control" name="schedule9" rows="3" aria-describedby="inputGroupPrepend" placeholder="Schedule Wajib Diisi"><?= $data['schedule9'] ?></textarea>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="ni ni-time-alarm"></i></span>
+                                    </div>
+                                    <input class="form-control" name="execute_time9" rows="3" aria-describedby="inputGroupPrepend" placeholder="Durasi Pelaksanaan Wajib Diisi" value="<?= $data['execute_time9'] ?>"></input>
+                                </div>
+                            </div>
+
+                            <hr style="height:2px;border:none;color:#333;background-color:#bbb8b8;" />
+
+                            <div class="form-group">
+                                <label class="fom-control-label font-weight-bold">Schedule</label>
+                                <textarea class="form-control" name="schedule10" rows="3" aria-describedby="inputGroupPrepend" placeholder="Schedule Wajib Diisi"><?= $data['schedule10'] ?></textarea>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="ni ni-time-alarm"></i></span>
+                                    </div>
+                                    <input class="form-control" name="execute_time10" rows="3" aria-describedby="inputGroupPrepend" placeholder="Durasi Pelaksanaan Wajib Diisi" value="<?= $data['execute_time10'] ?>"></input>
+                                </div>
+                            </div> -->
+
                             <div class="float-right">
                                 <button class="btn btn-primary mb-1" type="submit"><i class="ni ni-check-bold"></i> Submit form</button>
                             </div>

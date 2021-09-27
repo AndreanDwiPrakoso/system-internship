@@ -32,7 +32,7 @@
         <div class="scrollbar-inner">
             <!-- Brand -->
             <div class="sidenav-header d-flex align-items-center">
-                <a class="navbar-brand" href="<?= base_url('c_dashboard') ?>">
+                <a class="navbar-brand" href="https://soloabadi.com/">
                     <img src="<?= base_url('assets/'); ?>img/brand/logo-sobad.png" class="navbar-brand-img" alt="...">
                 </a>
                 <div class="ml-auto">
@@ -68,6 +68,12 @@
                             <a class="nav-link" href="<?= base_url('c_dashboard/calender') ?>">
                                 <i class="ni ni-calendar-grid-58 text-red"></i>
                                 <span class="nav-link-text">Kalender</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="<?= base_url('c_login/logout') ?>" onclick="return confirm('Apakah yakin Akan Logout?')">
+                                <i class="fas fa-sign-out-alt"></i>
+                                <span class="nav-link-text">Logout</span>
                             </a>
                         </li>
                     </ul>

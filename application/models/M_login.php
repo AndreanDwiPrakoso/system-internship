@@ -46,4 +46,31 @@ class M_login extends CI_Model
         $login = json_decode($data, true);
         return $login;
     }
+
+    //Mengambil data image dari curl
+    // public function image($id = '')
+    // {
+    //     $url = 'http://s.soloabadi.com/system-absen/include/curl.php';
+    //     $data = array(
+    //         'object' => 'sobad_user',
+    //         'func' => 'get_id',
+    //         'data' => array($id, array('picture'))
+    //     );
+
+    //     $data = $this->curl($url, $data);
+    //     $user = json_decode($data, true);
+    //     foreach ($user as $key) {
+    //         $value = $key;
+    //     }
+    //     return $value;
+    // }
+
+    // //Filter data image sesuai user_id
+    // public function get_image($image_id = '')
+    // {
+    //     $image = $this->m_project->image($image_id);
+    //     foreach ($image as $value) {
+    //     }
+    //     return $value;
+    // }
 }

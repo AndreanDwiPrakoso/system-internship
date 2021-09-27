@@ -31,6 +31,12 @@
 <script src="<?= base_url('assets/'); ?>vendor/datatables.net-buttons/js/buttons.print.min.js"></script>
 <script src="<?= base_url('assets/'); ?>vendor/datatables.net-select/js/dataTables.select.min.js"></script>
 
+<script src="<?= base_url('assets/') ?>plugin/ckeditor/ckeditor.js"></script>
+<script>
+    CKEDITOR.replace('content');
+    CKEDITOR.replace('content2');
+</script>
+
 <script src="<?= base_url('assets/'); ?>vendor/moment/min/moment.min.js"></script>
 <script src="<?= base_url('assets/'); ?>vendor/fullcalendar/dist/fullcalendar.min.js"></script>
 <script src="<?= base_url('assets/'); ?>vendor/sweetalert2/dist/sweetalert2.min.js"></script>
@@ -75,6 +81,19 @@
                 document.location.href = href;
             }
         })
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(".add-more").click(function() {
+            var html = $(".copy").html();
+            $(".after-add-more").after(html);
+        });
+
+        // saat tombol remove dklik control group akan dihapus 
+        $("body").on("click", ".remove", function() {
+            $(this).parents(".control-group").remove();
+        });
     });
 </script>
 </body>

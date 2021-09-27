@@ -51,7 +51,7 @@
                                         </div>
                                         <input class="form-control" name="username" placeholder="Username" id="validationCustomUsername" type="text" autocomplete="off" required>
                                         <div class="invalid-feedback text-left">
-                                            Anda Belum Memasukan Username
+                                            *Anda Belum Memasukan Username
                                         </div>
                                     </div>
                                 </div>
@@ -63,7 +63,7 @@
                                         </div>
                                         <input class="form-control" name="password" id="validationCustomUsername" placeholder="Password" type="password" required>
                                         <div class="invalid-feedback text-left">
-                                            Anda Belum Memasukan password
+                                            *Anda Belum Memasukan password
                                         </div>
                                     </div>
                                 </div>
